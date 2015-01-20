@@ -1,0 +1,23 @@
+#greeting {
+	text-align: center;
+	font-size: 40px;
+}
+.row {
+	font-size: 30px;
+    outline: 1px solid orange;
+}
+.col-md-4	{
+	outline: 1px solid orange;
+	height: 150px;
+	text-align: center;
+	line-height: 150px;
+}
+
+
+.table {
+	padding-left: 150px;
+	padding-right: 150px;
+
+}
+
+
