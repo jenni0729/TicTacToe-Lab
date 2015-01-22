@@ -37,15 +37,15 @@ function mark(event) {
     if (event.target.innerHTML === " ") {
         if (i % 2 === 0) {
             event.target.innerHTML = "O";
-            event.target.backgroundColor = "red";
+            event.target.style.backgroundColor = "red";
 
         } else {
             event.target.innerHTML = "X";
+            event.target.style.backgroundColor = "blue";
         }
         i++;
     }
 }
-
 //function 
 function clear() {
     document.getElementById("one-1").innerHTML = " ";
@@ -57,11 +57,21 @@ function clear() {
     document.getElementById("three-1").innerHTML = " ";
     document.getElementById("three-2").innerHTML = " ";
     document.getElementById("three-3").innerHTML = " ";
+
+    document.getElementById("one-1").style.background = "white";
+    document.getElementById("one-2").style.background = "white";
+    document.getElementById("one-3").style.background = "white";
+    document.getElementById("two-1").style.background = "white";
+    document.getElementById("two-2").style.background = "white";
+    document.getElementById("two-3").style.background = "white";
+    document.getElementById("three-1").style.background = "white";
+    document.getElementById("three-2").style.background = "white";
+    document.getElementById("three-3").style.background = "white";
+
     i = 1;
 }
 //function clear(){
 
 //}
-
 
 document.getElementById("reset").addEventListener("click", clear);

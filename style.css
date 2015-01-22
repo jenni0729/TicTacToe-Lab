@@ -15,9 +15,13 @@
 
 
 .table {
-	padding-left: 150px;
-	padding-right: 150px;
+	padding-left: 100px;
+	padding-right: 100px;
 
+}
+
+#reset {
+  margin: 10px;
 }
 
 
